@@ -16,32 +16,34 @@ export default function Home() {
         {/* LEFT SIDEBAR */}
         <div className="menu-sidebar col-span-2 outline-black flex flex-col space-y-10 py-2 px-2">
           <a href="/">
-            <FaTwitter className="w-10 h-10" />
+            <FaTwitter className="w-10 h-10 text-[#0F9AFB]" />
           </a>
-          <a href="#" className="flex space-x-6 items-center">
+          <a href="#" className="flex space-x-6 items-center hover:text-[#0F9AFB]">
             <FaHome className="w-8 h-8" />
             <p className="font-bold">Home</p>
           </a>
-          <a href="#" className="flex space-x-6 items-center">
+          <a href="#" className="flex space-x-6 items-center hover:text-[#0F9AFB]">
             <FaBell className="w-8 h-8" />
             <p className="font-bold">Notifications</p>
           </a>
-          <a href="#" className="flex space-x-6 items-center">
+          <a href="#" className="flex space-x-6 items-center hover:text-[#0F9AFB]">
             <FaEnvelope className="w-8 h-8" />
             <p className="font-bold">Messages</p>
           </a>
-          <a href="#" className="flex space-x-6 items-center">
+          <a href="#" className="flex space-x-6 items-center hover:text-[#0F9AFB]">
             <FaRegBookmark className="w-8 h-8" />
             <p className="font-bold">Bookmarks</p>
           </a>
-          <a href="#" className="flex space-x-6 items-center">
+          <a href="#" className="flex space-x-6 items-center hover:text-[#0F9AFB]">
             <FaUser className="w-8 h-8" />
             <p className="font-bold">Profile</p>
           </a>
         </div>
 
         {/* MAIN CONTENT AREA */}
-        <div className="main-content col-span-7"></div>
+        <div className="main-content col-span-7">
+
+        </div>
 
         {/* RIGHT SIDEBAR */}
         <div className="right-sidebar col-span-3 outline-black flex flex-col space-y-4 py-2">
